@@ -1,0 +1,28 @@
+@use 'hero';
+@use 'event';
+@use 'components/buttons';
+@use 'components/infos_bar';
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Poppins, sans-serif;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+
+    @media (max-width: 640px){
+        max-width: 80%;
+    }
+    
+    @media (max-width: 1024px){
+        max-width: 90%;
+    }
+}
+
