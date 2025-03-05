@@ -24,4 +24,4 @@ const contaAsHoras = setInterval(function() {
         clearInterval(contaAsHoras);
         document.getElementById('contador').innerHTML = 'Evento expirado';
     }
-}, 1000);g
+}, 1000);
